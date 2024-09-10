@@ -17,6 +17,22 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
   {
     num: "01",
+    category: "Fullstack (MERN)",
+    title: "Job Portal",
+    description:
+      "A full-stack web application built using React.js, Node.js, and MongoDB, providing a seamless job search experience with full Authentication fork the repo and enjoy.",
+    stack: [
+      { name: "React.js" },
+      { name: "Node.js" },
+      { name: "MongoDB" },
+      { name: "JavaScript" },
+    ],
+    image: "/work/thumb7.png",
+    live: "https://github.com/fawad526/Job_Portal",
+    github: "https://github.com/fawad526/Job_Portal",
+  },
+  {
+    num: "02",
     category: "Frontend",
     title: "Globe Visualization",
     description:
@@ -27,7 +43,7 @@ const projects = [
     github: "https://github.com/fawad526/Globe-Xgridtask2",
   },
   {
-    num: "02",
+    num: "03",
     category: "Portfolio",
     title: "Personal Portfolio",
     description:
@@ -42,7 +58,7 @@ const projects = [
     github: "https://github.com/fawad526/Resume",
   },
   {
-    num: "03",
+    num: "04",
     category: "Backend",
     title: "User Authentication System",
     description:
@@ -58,7 +74,7 @@ const projects = [
     github: "https://github.com/fawad526/Authentication",
   },
   {
-    num: "04",
+    num: "05",
     category: "Frontend",
     title: "Advanced State Management",
     description:
@@ -69,7 +85,7 @@ const projects = [
     github: "https://github.com/fawad526/Authentication",
   },
   {
-    num: "05",
+    num: "06",
     category: "Backend",
     title: "Social Media Backend API",
     description:
@@ -80,7 +96,7 @@ const projects = [
     github: "https://github.com/fawad526/socialmedia_Backend_REST_API",
   },
   {
-    num: "06",
+    num: "07",
     category: "Frontend",
     title: "Formik-based Form",
     description:
@@ -91,7 +107,7 @@ const projects = [
     github: "https://github.com/fawad526/formbasic-advancedbyformik",
   },
   {
-    num: "07",
+    num: "08",
     category: "Frontend",
     title: "Custom React Hooks",
     description:
