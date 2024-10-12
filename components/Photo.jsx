@@ -28,6 +28,10 @@ const Photo = () => {
             fill
             alt="Photo"
             className="object-contain"
+            style={{
+              borderRadius:"50rem",
+            
+            }}
           />
         </motion.div>
         {/* {circle} */}
@@ -37,11 +41,11 @@ const Photo = () => {
           viewBox="0 0 506 506"
           xmlns="http://www.w3.org/2000/svg"
         >
-          <motion.circle
+          {/* <motion.circle
             cx="253"
             cy="253"
             r="253"
-            stroke="#00ff99"
+            stroke="#ffffff"
             strokeWidth="4"
             strokeLinecap="round"
             strokeLinejoin="round"
@@ -55,7 +59,7 @@ const Photo = () => {
               repeat: Infinity,
               repeatType: "reverse",
             }}
-          />
+          /> */}
         </motion.svg>
       </motion.div>
     </div>

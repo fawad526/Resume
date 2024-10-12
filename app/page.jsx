@@ -23,7 +23,7 @@ const Home = () => {
             {/* {Button & socials} */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <a
-                href="/resume/Resume_.pdf" // Replace with the actual path to your resume file
+                href="/resume/Resume.pdf" // Replace with the actual path to your resume file
                 download="Fawad_Iqbal_Resume.pdf" // Set the name of the downloaded file
                 className="uppercase flex items-center gap-2"
               >
